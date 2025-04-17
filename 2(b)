@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            border-spacing: 5px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        caption {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Timetable Example</h1>
+
+    <table border="1" cellpadding="10" cellspacing="5">
+        <caption>Class Timetable</caption>
+        <tr>
+            <th>Day/Time</th>
+            <th>9:00 AM - 10:00 AM</th>
+            <th>10:00 AM - 11:00 AM</th>
+            <th>11:00 AM - 12:00 PM</th>
+            <th>12:00 PM - 1:00 PM</th>
+            <th>1:00 PM - 2:00 PM</th>
+            <th>2:00 PM - 3:00 PM</th>
+            <th>3:00 PM - 4:00 PM</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td>P&S</td>
+            <td>PHYSICS</td>
+            <td>SE</td>
+            <td rowspan="5" colspan="1">LUNCH BREAK</td>
+            <td>ADSAA</td>
+            <td>FSD</td>
+            <td>sports</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td>DTI</td>
+            <td>MEFA</td>
+            <td>DLCO</td>
+            <td>ADSAA</td>
+            <td>SE</td>
+            <td>P&S</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td colspan="2">FSD Lab</td>
+            <td>SE</td>
+            <td>P&S</td>
+            <td>OS</td>
+            <td>MEFA</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td>OS</td>
+            <td>DLCO</td>
+            <td>MEFA</td>
+            <td colspan="2">DTI</td>
+            <td>ADSAA</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td>UHV</td>
+            <td>OS LAB</td>
+            <td>ADSAA</td>
+            <td>CRT</td>
+            <td>DLCO</td>
+            <td>MEFA</td>
+        </tr>
+    </table>
+
+</body>
+</html>
