@@ -15,3 +15,13 @@ function Counter() {
  ); 
 } 
 export default Counter;
+
+
+commands:
+
+node
+
+npx create-react-app my-app
+cd my-app
+
+npm start
